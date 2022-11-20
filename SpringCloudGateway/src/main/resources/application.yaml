@@ -1,0 +1,12 @@
+spring:
+  main:
+    web-application-type: reactive
+  application:
+    name: spring-api-gateway
+
+server:
+  port: 8080
+
+  eureka:
+    instance:
+      hostname: localhost
